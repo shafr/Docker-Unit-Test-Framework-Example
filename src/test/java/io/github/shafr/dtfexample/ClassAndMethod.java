@@ -5,7 +5,6 @@ import io.github.shafr.dockertestframework.annotations.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-@DockerHost("http://shadm01-co7:2375")
 @Image("alpine")
 @EntryPoint("/bin/sh")
 @Environment("key=value")
